@@ -1,3 +1,3 @@
-print(7%5)
-
-range()
+l = [1, 2]
+l.pop()
+print(l)
