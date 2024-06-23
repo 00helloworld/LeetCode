@@ -1,3 +1,2 @@
-l = [1, 2]
-l.pop()
-print(l)
+for i, h in enumerate([1,2,3]):
+    print(i, h)
