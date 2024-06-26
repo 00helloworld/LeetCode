@@ -1,3 +1,3 @@
-s = 'sssfsge'
-
-print(s[-1])
+s = '    sssfsge  '
+s = s.strip()
+print(s)
