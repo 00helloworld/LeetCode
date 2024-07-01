@@ -1,10 +1,5 @@
+dic_row = [{}] * 9
 
-def test(x, y, z):
-    # day, month, year
-    # xyz
-    # yxz
-    # yzx
-    # zyx
-    # xzy
-    # zxy
-    date = []
+dic_row[0][5] = 1
+
+print(dic_row)

@@ -20,4 +20,4 @@ class Solution(object):
         for i in range(len(s) - t_len - 1):
             j = i + t_len
             while j <= len(s):
-                
+                pass
