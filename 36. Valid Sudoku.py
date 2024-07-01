@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: bool
         """
         
-        dic_row = [{} for i in range(9)]
+        dic_row = [{} for i in range(9)]  # do not use [{}]*9, it will create 9 same objects
         dic_col = [{} for i in range(9)]
         doc_grid = [{} for i in range(9)]
         for i in range(9):
