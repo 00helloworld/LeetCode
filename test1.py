@@ -1,5 +1,6 @@
-dic_row = [{}] * 9
+row = []
 
-dic_row[0][5] = 1
-
-print(dic_row)
+if row:
+    print('True')
+else:
+    print('False')
