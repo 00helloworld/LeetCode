@@ -19,7 +19,7 @@ class Solution(object):
                 matrix[r][j] = 0
 
         for c in column_arr:
-            for i in range(len(matrix[0])):
+            for i in range(len(matrix)):
                 matrix[i][c] = 0
 
                 
