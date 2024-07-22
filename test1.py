@@ -1,2 +1,5 @@
-print(list(set(sorted([0, -1]))))
-print(sorted(list(set([0, -1]))))
+s = [[4, 6], [3, 2], [1, 3]]
+
+s.sort(key=lambda x:x[0])
+
+print(s)
